@@ -9,7 +9,7 @@ class App extends Component {
           <h2>ЗА ОКНОМ</h2>
         </div>
         <p className="App-intro">
-          Блог <a href="https://github.com/Mironova">Ирины Мироновой</a> должен в скором времени появиться
+          Блог <a href="https://github.com/Mironova">Ирины Мироновой</a> о всяком интересном
         </p>
       </div>
     );
