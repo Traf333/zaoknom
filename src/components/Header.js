@@ -1,13 +1,13 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
+import './Header.css'
+
 export default function Header(props) {
   return (
-    <header>
-      <ul>
-        <li><Link to='articles'>Articles</Link></li>
-        <li><Link to='about'>About</Link></li>
-      </ul>
+    <header className="header">
+        <div className="header-item"><Link to='articles'>Articles</Link></div>
+        <div className='header-item'><Link to='about'>About</Link></div>
     </header>
   );
 }
