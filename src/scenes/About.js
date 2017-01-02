@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 export default function About(props) {
   return (
@@ -10,5 +10,3 @@ export default function About(props) {
     </div>
   );
 }
-About.propTypes = {
-};

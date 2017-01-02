@@ -1,13 +1,13 @@
 import React from 'react';
 import {IndexRoute, Route} from 'react-router';
 
-import App from './components/App';
-import HomePage from './components/HomePage';
-import About from './components/About';
-import Articles from './components/articles';
-import Article from './components/Articles/show';
-import NewArticle from './components/Articles/new';
-import NotFoundPage from './components/NotFoundPage';
+import App from './scenes/App';
+import HomePage from './scenes/HomePage';
+import About from './scenes/About';
+import Articles from './scenes/Articles';
+import Article from './scenes/Article';
+import NewArticle from './scenes/NewArticle';
+import NotFoundPage from './scenes/NotFoundPage';
 
 export default (
   <Route path="/" component={App}>

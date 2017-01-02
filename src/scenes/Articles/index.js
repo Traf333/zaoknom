@@ -1,6 +1,6 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
-import Button from '../buttons';
+import Button from '../../components/Button';
 
 export default function Articles(props) {
   return (

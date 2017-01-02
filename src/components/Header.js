@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { Link } from 'react-router';
 
 import './Header.css'
@@ -11,5 +11,3 @@ export default function Header(props) {
     </header>
   );
 }
-Header.propTypes = {
-};
