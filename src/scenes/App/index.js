@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 import Divider from 'material-ui/Divider';
 import './App.css';
 
@@ -11,7 +11,7 @@ class App extends Component {
         <Header />
         <Divider />
         {this.props.children}
-        <Footer />
+
       </div>
     );
   }
