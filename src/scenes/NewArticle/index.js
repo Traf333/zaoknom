@@ -18,13 +18,12 @@ class NewArticle extends React.Component {
       content: '',
       published: false
     }
-    this.submit = this.submit.bind(this)
 
   }
 
-  submit(e) {
+  submit = (e) => {
     e.preventDefault();
-    
+    console.log(this.state)
   }
 
   changeInput({name, value}) {
